@@ -1,11 +1,10 @@
-pipeline{
+pipeline {
     agent any
-    stages{
-        stage('BUILD'){
-            steps{
+    stages {
+        stage('BUILD') {
+            steps {
                 sh 'echo "Build Completed!"'
             }
-
         }
     }
 }
